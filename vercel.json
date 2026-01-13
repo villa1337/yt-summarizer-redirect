@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "redirects": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://grounds-trend-valley-artwork.trycloudflare.com/$1",
-      "permanent": false
+      "destination": "/api/index"
     }
   ]
 }
